@@ -1,19 +1,17 @@
-/* Styling Only Related To ALL Pages */
-
 body {
   padding-top: 30px;
   margin-left: 0px;
   margin-right: 0px;
+  background-color: #ffe6f0;
 }
-/* ⬆⬆⬆⬆ Nav Bar Styling 
-~~~~~ Taken From: 
-https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+/* Nav Bar Styling */
 ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #ffc0cb;
   position: fixed;
   top: 0;
   width: 100%;
@@ -26,18 +24,18 @@ ul.nav li {
 
 ul.nav li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul.nav li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: #ffff99;
 }
 
 ul.nav .active {
-  background-color: red;
+  background-color: #add8e6;
 }
 
 h1 {
